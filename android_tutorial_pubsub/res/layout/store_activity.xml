@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E2723">
+
+    <ImageButton
+        android:id="@+id/Store"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="120dp"
+        android:background="#3E2723"
+        android:contentDescription="@android:string/yes"
+        android:scaleType="centerCrop"
+        android:src="@drawable/store_black"
+        tools:ignore="RtlHardcoded"
+        tools:targetApi="donut" />
+
+    <ImageView
+        android:id="@+id/imageView_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Store"
+        android:layout_alignLeft="@+id/Store"
+        android:layout_alignRight="@+id/Store"
+        android:layout_alignStart="@+id/Store"
+        android:layout_below="@+id/Store"
+        android:background="@android:color/black"
+        android:contentDescription="@android:string/ok"
+        android:visibility="visible"
+        app:srcCompat="@drawable/divider"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/TextView_Store"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageView_divider"
+        android:layout_alignStart="@+id/imageView_divider"
+        android:layout_below="@+id/imageView_divider3"
+        android:layout_marginTop="27dp"
+        android:text="@string/store_analysis"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <ImageButton
+        android:id="@+id/imageView_Sales"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/imageView_divider"
+        android:layout_marginLeft="146dp"
+        android:layout_marginStart="141dp"
+        android:layout_toRightOf="@+id/textView_Stock"
+        android:background="#3E2723"
+        android:contentDescription="@android:string/ok"
+        android:cropToPadding="false"
+        android:elevation="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/won"
+        tools:ignore="RtlHardcoded,UnusedAttribute" />
+
+    <ImageView
+        android:id="@+id/imageView_divider2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView_Sales"
+        android:layout_alignLeft="@+id/imageView_Sales"
+        android:layout_alignRight="@+id/imageView_Sales"
+        android:layout_alignStart="@+id/imageView_Sales"
+        android:layout_below="@+id/imageView_Sales"
+        android:background="@android:color/black"
+        android:contentDescription="@android:string/ok"
+        app:srcCompat="@drawable/divider"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView_Sales"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/TextView_Store"
+        android:layout_alignBottom="@+id/TextView_Store"
+        android:layout_alignLeft="@+id/imageView_divider2"
+        android:layout_alignStart="@+id/imageView_divider2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:text="@string/sales_analysis"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/imageView_Stock"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/Store"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="37dp"
+        android:layout_toLeftOf="@+id/imageView_Sales"
+        android:background="#3E2723"
+        android:contentDescription="@android:string/ok"
+        android:scaleType="centerCrop"
+        android:src="@drawable/stock"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/imageView_divider3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView_Stock"
+        android:layout_alignLeft="@+id/imageView_Stock"
+        android:layout_alignRight="@+id/imageView_Stock"
+        android:layout_alignStart="@+id/imageView_Stock"
+        android:layout_below="@+id/imageView_Stock"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/black"
+        android:contentDescription="@android:string/ok"
+        app:srcCompat="@drawable/divider"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView_Stock"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/TextView_Store"
+        android:layout_alignBottom="@+id/TextView_Store"
+        android:layout_marginLeft="162dp"
+        android:layout_marginStart="162dp"
+        android:layout_toEndOf="@+id/TextView_Store"
+        android:layout_toRightOf="@+id/TextView_Store"
+        android:text="@string/stock_info"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

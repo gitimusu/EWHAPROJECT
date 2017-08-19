@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Tables"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/No1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="105dp"
+            android:text="@string/Table_One"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/Table2"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@string/Table_One"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/delivery"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/No2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="460dp"
+            android:layout_marginStart="460dp"
+            android:layout_marginTop="105dp"
+            android:text="@string/Table_2"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/No3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="280dp"
+            android:text="@string/Table_3"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table4"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="200dp"
+            android:contentDescription="@string/Table_4"
+            app:srcCompat="@drawable/order_end" />
+
+        <TextView
+            android:id="@+id/No4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="460dp"
+            android:layout_marginStart="460dp"
+            android:layout_marginTop="280dp"
+            android:text="@string/Table_4"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table5"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="355dp"
+            android:contentDescription="@string/Table_5" />
+
+        <TextView
+            android:id="@+id/No5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="430dp"
+            android:text="@string/Table_5"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table6"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="355dp"
+            android:contentDescription="@string/Table_6" />
+
+        <TextView
+            android:id="@+id/No6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="460dp"
+            android:layout_marginStart="460dp"
+            android:layout_marginTop="430dp"
+            android:text="@string/Table_6"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table7"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="520dp"
+            android:contentDescription="@string/Table_7" />
+
+        <TextView
+            android:id="@+id/No7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="590dp"
+            android:text="@string/Table_7"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table8"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="520dp"
+            android:contentDescription="@string/Table_6" />
+
+        <TextView
+            android:id="@+id/No8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="460dp"
+            android:layout_marginStart="460dp"
+            android:layout_marginTop="590dp"
+            android:text="@string/Table_8"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/No9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="855dp"
+            android:layout_marginStart="855dp"
+            android:layout_marginTop="108dp"
+            android:text="@string/Table_9"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table10"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="990dp"
+            android:layout_marginStart="990dp"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@string/Table_10"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/delivery" />
+
+        <TextView
+            android:id="@+id/No10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1120dp"
+            android:layout_marginStart="1120dp"
+            android:layout_marginTop="108dp"
+            android:text="@string/Table_10"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table11"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="720dp"
+            android:layout_marginStart="720dp"
+            android:layout_marginTop="200dp"
+            android:contentDescription="@string/Table_11"
+            app:srcCompat="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/No11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="855dp"
+            android:layout_marginStart="855dp"
+            android:layout_marginTop="275dp"
+            android:text="@string/Table_11"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table12"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="990dp"
+            android:layout_marginStart="990dp"
+            android:layout_marginTop="200dp"
+            android:contentDescription="@string/Table_12"
+            app:srcCompat="@drawable/order_end" />
+
+        <TextView
+            android:id="@+id/No12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1120dp"
+            android:layout_marginStart="1120dp"
+            android:layout_marginTop="275dp"
+            android:text="@string/Table_12"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table13"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="720dp"
+            android:layout_marginStart="720dp"
+            android:layout_marginTop="355dp"
+            android:contentDescription="@string/Table_13" />
+
+        <TextView
+            android:id="@+id/No13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="855dp"
+            android:layout_marginStart="855dp"
+            android:layout_marginTop="430dp"
+            android:text="@string/Table_13"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table14"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="990dp"
+            android:layout_marginStart="990dp"
+            android:layout_marginTop="355dp"
+            android:contentDescription="@string/Table_14" />
+
+        <TextView
+            android:id="@+id/No14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1120dp"
+            android:layout_marginStart="1120dp"
+            android:layout_marginTop="430dp"
+            android:text="@string/Table_14"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table15"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="720dp"
+            android:layout_marginStart="720dp"
+            android:layout_marginTop="520dp"
+            android:contentDescription="@string/Table_15" />
+
+        <TextView
+            android:id="@+id/No15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="855dp"
+            android:layout_marginStart="855dp"
+            android:layout_marginTop="590dp"
+            android:text="@string/Table_15"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table16"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="990dp"
+            android:layout_marginStart="990dp"
+            android:layout_marginTop="520dp"
+            android:contentDescription="@string/Table_16" />
+
+        <TextView
+            android:id="@+id/No16"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1120dp"
+            android:layout_marginStart="1120dp"
+            android:layout_marginTop="590dp"
+            android:text="@string/Table_16"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Table1"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@string/Table_One"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/stock"
+            tools:ignore="RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/Table9"
+            android:layout_width="180dp"
+            android:layout_height="117dp"
+            android:layout_marginLeft="720dp"
+            android:layout_marginStart="720dp"
+            android:layout_marginTop="35dp"
+            android:contentDescription="@string/Table_One"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/stock" />
+
+        <ImageButton
+            android:id="@+id/Table3"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="200dp"
+            android:contentDescription="@string/Table_One"
+            app:srcCompat="@drawable/progress" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

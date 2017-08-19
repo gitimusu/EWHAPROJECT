@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PubSubTutorial</string>
+    <string name="coffee_please">Coffee Please</string>
+    <string name="user">ID</string>
+    <string name="user_id">User_ID</string>
+    <string name="user_pwd">pwd</string>
+    <string name="user_pwd_enter">***********</string>
+    <string name="button_login">LOGIN</string>
+    <string name="매장">매장 관리</string>
+    <string name="store_analysis">Store Analysis</string>
+    <string name="sales_analysis">Sales Analysis</string>
+    <string name="stock_info">Stock Info</string>
+    <string name="table_info">Table Information</string>
+    <string name="waiting_list">Order List</string>
+    <string name="Table_Info">Table</string>
+    <string name="Table_One">1</string>
+    <string name="Table_2">2</string>
+    <string name="Table_3">3</string>
+    <string name="Table_4">4</string>
+    <string name="Table_5">5</string>
+    <string name="Table_6">6</string>
+    <string name="Table_7">7</string>
+    <string name="Table_8">8</string>
+    <string name="main_page">ROBOTBUCKS</string>
+    <string name="Menu">Options</string>
+    <string name="Greeting">WELCOME</string>
+    <string name="userIcon">userIcon</string>
+    <string name="tNo">Table_Number</string>
+    <string name="menu">Menu</string>
+    <string name="size">Size</string>
+    <string name="count">Count</string>
+    <string name="return_button">RETURN</string>
+    <string name="Table_9">9</string>
+    <string name="Table_10">10</string>
+    <string name="Table_11">11</string>
+    <string name="Table_12">12</string>
+    <string name="Table_13">13</string>
+    <string name="Table_14">14</string>
+    <string name="Table_15">15</string>
+    <string name="Table_16">16</string>
+    <string name="robotbucks">ROBOTBUCKS</string>
+    <string name="cancel">CANCEL</string>
+
+</resources>
