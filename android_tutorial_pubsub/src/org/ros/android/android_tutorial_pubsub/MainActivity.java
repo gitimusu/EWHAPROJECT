@@ -16,53 +16,53 @@
 
 package org.ros.android.android_tutorial_pubsub;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
-import org.ros.android.MessageCallable;
 import org.ros.android.RosActivity;
 import org.ros.android.view.RosTextView;
 import org.ros.node.NodeConfiguration;
 import org.ros.node.NodeMainExecutor;
-import org.ros.rosjava_tutorial_pubsub.Talker;
+//import org.ros.rosjava_tutorial_pubsub.Talker;
 
 /**
  * @author damonkohler@google.com (Damon Kohler)
  */
-public class MainActivity extends RosActivity {
+public class MainActivity extends RosActivity {         // implements View.OnClickListener
 
-  private RosTextView<std_msgs.String> rosTextView;
-  private Talker talker;
+//  private RosTextView<std_msgs.String> rosTextView;
+    private Talker talker;
+    public ImageButton home ;
+//  public Button table1, table2, table3;
 
   public MainActivity() {
-    // The RosActivity constructor configures the notification title and ticker
-    // messages.
     super("RobotBucks", "RobotBucks"); // Pubsub Tutorial
   }
 
-  @SuppressWarnings("unchecked")
-  @Override
-  public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.main);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-      // Write a message to the database
-      FirebaseDatabase database = FirebaseDatabase.getInstance();
-      DatabaseReference myRef = database.getReference("message");
+        home = (ImageButton) findViewById(R.id.robot_welcome);
 
-      myRef.setValue("Hello, World!");
-    rosTextView = (RosTextView<std_msgs.String>) findViewById(R.id.text);
-    rosTextView.setTopicName("chatter");
-    rosTextView.setMessageType(std_msgs.String._TYPE);
-    rosTextView.setMessageToStringCallable(new MessageCallable<String, std_msgs.String>() {
-      @Override
-      public String call(std_msgs.String message) {
-        return message.getData();
-      }
-    });
-  }
+        onImageButtonClick();
+    }
+
+    public void onImageButtonClick(){
+        home.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, StoreActivity.class);
+                startActivity(intent);
+            }
+      });
+    }
 
   @Override
   protected void init(NodeMainExecutor nodeMainExecutor) {
@@ -79,6 +79,7 @@ public class MainActivity extends RosActivity {
     nodeMainExecutor.execute(talker, nodeConfiguration);
     // The RosTextView is also a NodeMain that must be executed in order to
     // start displaying incoming messages.
-    nodeMainExecutor.execute(rosTextView, nodeConfiguration);
+    // nodeMainExecutor.execute(rosTextView, nodeConfiguration);
   }
+
 }

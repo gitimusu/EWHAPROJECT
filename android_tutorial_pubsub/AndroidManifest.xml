@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.ros.android.android_tutorial_pubsub">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.ros.android.android_tutorial_pubsub"
+    tools:overrideLibrary="android.support.design">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
-        android:icon="@mipmap/icon"
         android:allowBackup="true"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
-        <!--activity android:name="org.ros.android.android_tutorial_pubsub.MainActivity"-->
-            <activity android:name = ".MainActivity2">
+        android:icon="@mipmap/icon"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <!-- android:theme="@style/Theme.AppCompat.Light.DarkActionBar" -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Robotbucks"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,17 +31,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity">
+            android:name=".LoginActivity"
+            android:label="Robotbucks"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".StoreActivity" />
         </activity>
         <activity
-            android:name=".StoreActivity">
+            android:name=".StoreActivity"
+            android:label="Robotbucks"
+            android:screenOrientation="landscape">
         </activity>
         <activity
-            android:name=".TableActivity">
+            android:name=".TableActivity"
+            android:label="Robotbucks"
+            android:screenOrientation="landscape">
         </activity>
-        <activity
-            android:name=".OrderedContentActivity">
-        </activity>
+
         <activity android:name="org.ros.android.MasterChooser" />
 
         <service android:name="org.ros.android.NodeMainExecutorService" >
@@ -36,6 +56,8 @@
                 <action android:name="org.ros.android.NodeMainExecutorService" />
             </intent-filter>
         </service>
+
     </application>
 
 </manifest>
+

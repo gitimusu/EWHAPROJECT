@@ -18,21 +18,29 @@ dependencies {
     compile project(':android_10')
     compile 'org.ros.rosjava_core:rosjava_tutorial_pubsub:[0.3,0.4)'
     compile 'com.google.firebase:firebase-database:10.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:support-v4:26.+'
+    compile 'com.android.support:design:26.+'
 }
 
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 26
 
     defaultConfig {
-        minSdkVersion 10
+        minSdkVersion 14    //10
         applicationId "org.ros.android.android_tutorial_pubsub"
-        targetSdkVersion 10
+        targetSdkVersion 14      //10
         versionCode 1
         versionName "1.0"
     }
+    dexOptions {
+        jumboMode = true
+    }
 }
+
 
 
 apply plugin: 'com.google.gms.google-services'

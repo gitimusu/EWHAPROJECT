@@ -7,7 +7,7 @@
         android:checkable="true"
         android:enabled="true"
         android:icon="@drawable/menu_icon"
-        android:showAsAction="always"
+        app:showAsAction="always"
         android:title="@string/Menu"
         android:visible="true"
         tools:targetApi="11">

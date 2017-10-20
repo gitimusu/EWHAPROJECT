@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="800dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp">
+
+        <ImageButton
+            android:id="@+id/table1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop = "true"
+            android:layout_alignParentLeft="true"
+            android:onClick="okButtonClicked"
+            android:src="@drawable/table_oval"
+            android:visibility="visible"
+            tools:targetApi="lollipop"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/table2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_alignParentTop = "true"
+            android:layout_alignParentRight="true"
+            android:onClick="okButtonClicked"
+            android:src="@drawable/table_oval"
+            android:visibility="visible"
+            tools:targetApi="lollipop"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/table3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:onClick="okButtonClicked"
+            android:src="@drawable/table_oval"
+            android:visibility="visible"
+            tools:targetApi="lollipop"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <org.ros.android.view.RosTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

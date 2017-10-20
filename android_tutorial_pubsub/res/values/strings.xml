@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_progress">ProgeressActivity</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
     <string name="app_name">PubSubTutorial</string>
     <string name="coffee_please">Coffee Please</string>
     <string name="user">ID</string>
@@ -42,5 +63,22 @@
     <string name="Table_16">16</string>
     <string name="robotbucks">ROBOTBUCKS</string>
     <string name="cancel">CANCEL</string>
+    <string name="button">SEND</string>
+    <string name="button1">SEND</string>
+    <string name="tablenum">TableNo</string>
+    <string name="Menus">Menu</string>
+    <string name="Status">Status</string>
+    <string name="robutbucks">ROBUTBUCKS</string>
+    <string name="welcome">WELCOME</string>
+    <string name="action_settings">Settings</string>
+    <string name="no">No.</string>
+    <string name="order_list">Order list</string>
+    <string name="table">Table</string>
+    <string name="time">Time</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="second_menu">second_menu</string>
+    <string name="holy_operating_systems_batdroid">Holy Operating Systems, Batdroid!</string>
+
 
 </resources>
